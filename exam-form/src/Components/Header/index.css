@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: auto;
+    height: auto;
+    margin: 0 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+    background-color: grey;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 33px;
+
+}
+
+li {
+    list-style: none;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+li:hover {
+    color: whitesmoke;
+}
